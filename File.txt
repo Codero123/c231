@@ -1,0 +1,4 @@
+Select * from  customers;
+Select first_name, last_name from customers;
+Select * from customers where first_name = "Alexander" and last_name = "Peter";
+Select company_name, contract_name from companies where location = "UK" or location = "USA";
