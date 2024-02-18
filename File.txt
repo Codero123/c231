@@ -1,4 +1,4 @@
-Select * from  customers;
-Select first_name, last_name from customers;
-Select * from customers where first_name = "Alexander" and last_name = "Peter";
-Select company_name, contract_name from companies where location = "UK" or location = "USA";
+SELECT * FROM customers;
+SELECT first_name, last_name FROM customers;
+SELECT * FROM customers where first_name = "Alexander" AND last_name = "Peter";
+SELECT company_name, contract_name FROM companies WHERE location = "UK" OR location = "USA";
